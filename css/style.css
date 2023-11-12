@@ -1,0 +1,153 @@
+:root{
+    --color-orange: #f56302;
+    --color-dark-green:#052e16;
+    --color-success-subtle:#ecfdf5;
+}
+body {
+    background-color: var(--color-success-subtle);
+    font-family: 'Roboto Slab', serif;
+}
+.text-danger{
+    color: var(--color-orange) !important;
+}
+.bg-danger,
+.btn-danger{
+    background-color: var(--color-orange) !important;
+}
+.bg-success{
+    background-color: var(--color-dark-green) !important;
+}
+.bg-success-subtle{
+    background-color:var(--color-success-subtle) !important ;
+}
+.img-logo{
+    width: 5rem;
+    height: 5rem;
+    aspect-ratio: 2/2;
+}
+.section-hero{
+    background-image: url('/images/background-section-hero.jpg');
+    min-height: 100vh;
+}
+.section-hero,
+.section-about-us,
+.section-services,
+.section-galery .eucalipto,
+.section-galery .pino,
+.section-hero-about,
+.cards-about,
+.section-hero-service{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main-content .container-fluid .col-lg-8,
+.main-content .container-fluid .col-lg-4{
+    padding-top: 15rem;
+}
+.section-hero-about {
+    background-image: url('/images/background-section-about-us.jpg');
+    padding-top: 10rem;
+}
+.cards-about {
+    background-image: url('/images/background-section-about-us.jpg');
+}
+.section-hero-service {
+    background-image: url('/images/background-section-services.jpg');
+}
+.img-service {
+    filter: drop-shadow(4px 4px 6px #000);
+}
+.btn:after {
+    content: "";
+    width: 0%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+}
+.btn:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+}
+.btn span {
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover span {
+    color: var(--color-dark-green) !important;
+    animation: scaleUp 0.3s ease-in-out;
+}
+@keyframes scaleUp {
+    0% {transform: scale(1);}
+    50% {transform: scale(0.95);}
+    100% { transform: scale(1);}
+}
+.img-about{
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.section-about-us{
+    background-image: url('/images/backgound-section-about-us.png');
+}
+.section-hero,
+.section-services,
+.section-galery .eucalipto,
+.section-galery .pino,
+.section-hero-about,
+.cards-about {
+    background-attachment: fixed;
+}
+.section-services{
+    background-image: url('/images/background-section-services.png');
+}
+.section-galery .eucalipto{
+    background-image: url('/images/imagen-eucalipto.jpg');
+}
+.section-galery .pino {
+    background-image: url('/images/imagen-pino.jpg');
+}
+.section-services .services,
+.eucalipto .col-lg-6,
+.pino .col-lg-6,
+.cards-about .card,
+.card-service .card {
+    background: rgba(255, 255, 255, 0.116);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+.eucalipto .shadow,
+.pino .shadow {
+    box-shadow: #000 0px 20px 30px -10px !important;
+}
+
+@media (width < 768px) {
+    .main-content .container-fluid .col-lg-4 {
+        padding-top: 2.5rem;
+    }
+    .btn {
+        width: 100% !important;
+    }
+    .section-call-to-action{
+        border-radius: 0 !important;
+    }
+}
+
+@media (768px <=width < 992px) {
+    .main-content .container-fluid .col-lg-4 {
+        padding-top: 3rem;
+    }
+    .section-hero {
+        padding-top: 10rem;
+    }
+    .btn {
+        width: 50% !important;
+    }
+    .btn-service{
+        width: 100% !important;
+    }
+        
+}
+
+    

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversiones Maderera SG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/logo-website.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg fixed-top py-0 bg-success">
+                <div class="container">
+                    <a class="navbar-brand" href="./index.html">
+                        <span></span><img src="./images/logo-website.png" class="img-fluid img-logo object-fit-cover" alt="logo-website-navbar">
+                    </a>
+                    <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end pb-lg-0 pb-4" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item nav-underline ps-2 ps-lg-0">
+                                <a class="nav-link text-white fw-bold" href="#home"><i class="bi bi-house-fill text-danger pe-2"></i>Inicio</a>
+                            </li>
+                            <li class="nav-item nav-underline ms-lg-1 ps-2 ps-lg-0">
+                                <a class="nav-link text-white fw-bold" href="./sobre-nosotros.html"><i class="bi bi-people-fill text-danger pe-2"></i>Sobre Nosotros</a>
+                            </li>
+                            <li class="nav-item nav-underline mx-lg-1 ps-2 ps-lg-0">
+                                <a class="nav-link text-white fw-bold" href="./nuestros-servicios.html"><i class="bi bi-person-circle text-danger pe-2"></i>Servicios</a>
+                            </li>
+                            <li class="nav-item rounded-2 ps-2 ps-lg-0"> 
+                                <button type="button" class="btn btn-danger position-relative overflow-hidden d-flex justify-content-lg-center align-items-center border-0 fw-bold" data-bs-toggle="modal" data-bs-target="#Modal-Contact">
+                                    <span><i class="bi bi-envelope-at-fill pe-2"></i>Contactos</span>
+                                </button>              
+                            </li>                                                     
+                        </ul>                     
+                    </div>                  
+                </div>               
+            </nav>
+            <div class="modal fade" id="Modal-Contact" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header bg-success">
+                            <img src="./images/logo-website.png" class="img-fluid img-logo object-fit-cover" alt="logo-website-navbar">
+                            <button type="button" class="btn-close text-bg-light rounded-5" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body bg-success-subtle">
+                            <img src="./images/imagen-modal.png" class="img-fluid" alt="imagen-modal">
+                            <p class="py-3">
+                                ¡Estamos encantados de escucharte! Ponte en contacto con nosotros para obtener más información sobre nuestros productos y servicios.
+                            </p>
+                            <ul>
+                                <li>
+                                    <span>Dirección:</span><br>
+                                    <span>Calle Principal 123, Ciudad Maderera</span>
+                                </li>
+                                <li>
+                                    <span>Teléfono:</span><br>
+                                    <span>(123) 456-7890</span>
+                                </li>
+                                <li>
+                                    <span>Correo Electrónico:</span><br>
+                                    <span>correo@correo.com</span>
+                                </li>
+                            </ul>
+                            <p>¿Tienes alguna pregunta? ¡Envíanos un mensaje!</p>
+                            <p>&copy; 2023 Inversiones Maderera SG</p>
+                        </div>
+                        <div class="modal-footer bg-success-subtle">
+                            <button type="button" class="btn btn-danger position-relative overflow-hidden d-flex justify-content-center align-items-center border-1  border-black" data-bs-dismiss="modal"><span>Cerrar</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>                 
+        </div>
+    </header>
+    <main class="main-content">
+        <section class="section-hero container-fluid" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <h1 class="text-white text-uppercase fw-bold">
+                            bienvenidos <br> a inversiones SG
+                            <span class="text-danger" id="texto"></span><span class="text-danger"><span class="text-white">|</span></span>
+                        </h1>
+                        <P class="text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita porro saepe sunt rem laborum, voluptate, eius aperiam, harum quos accusamus commodi repellat corporis. Ea autem iure laboriosam nobis nam odio!
+                        </P>
+                        <a href="" class="btn btn-danger text-uppercase position-relative d-flex justify-content-center align-items-center overflow-hidden fw-bold w-25 border-0">
+                            <span>Contáctanos<i class="bi bi-arrow-right ps-1"></i></span>
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-4 text-center text-md-start text-lg-end border-black">
+                        <a href="" class="d-lg-block">
+                            <i class="bi bi-facebook bg-danger text-white p-2 fs-3 rounded-2"></i>
+                        </a>
+                        <a href="https://wa.me/954480323" class="d-lg-block py-4 mx-lg-0 mx-2" target="_blank">
+                            <i class="bi bi-whatsapp bg-danger text-white  text-success p-2 fs-3 rounded-2"></i>
+                        </a>
+                        <a href="" class="d-lg-block">
+                            <i class="bi bi-envelope-at bg-danger text-white p-2 fs-3 rounded-2"></i>
+                        </a>      
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-about-us container-fluid my-5 py-lg-5" id="sobre-nosotros">
+            <div class="container pt-lg-5">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <h2 class="border-5 border-bottom fw-bold">Sobre Nosotros</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nemo doloribus cupiditate beatae placeat, corporis quos, iusto vitae hic optio magnam, ipsa assumenda modi deserunt eius est pariatur nobis blanditiis.
+                        </p>
+                        <ul class="list-group pb-3 fw-semibold">
+                            <li class="list-inline-item">
+                                <i class="bi bi-check-circle-fill"></i><span class="ps-1">Compromiso con la Calidad.</span>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="bi bi-check-circle-fill"></i><span class="ps-1">Expertos en madera.</span>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="bi bi-check-circle-fill"></i><span class="ps-1">Compromiso con la Sostenibilidad.</span>
+                            </li>
+                        </ul>
+                        <a href="./sobre-nosotros.html" class="btn btn-danger position-relative d-flex justify-content-center align-items-center overflow-hidden border-1 border-black fw-bold w-25">
+                            <span>Leer Más<i class="bi bi-arrow-right-circle-fill ps-2"></i></span>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 mt-lg-0 mt-4">
+                        <img src="./images/imagen-section-about-us.jpg" class="img-fluid rounded-4 img-about" alt="imagen-section-about-us">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-services container-fluid my-5 py-lg-5" id="nuestros-servicios">
+            <div class="container services p-lg-5 rounded-3">
+                <h2 class="text-black border-5 border-bottom text-lg-center fw-bold">Nuestros Servicios</h2>
+                <p class="text-black text-lg-center px-lg-5 py-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium fugit quo quasi ducimus architecto rerum ullam doloremque libero quidem iusto itaque, porro temporibus sapiente earum recusandae officia dolor illum ad!
+                </p>
+                <div class="row row-cols-1 row-cols-md-3 g-4 pb-5">
+                    <div class="col">
+                        <div class="card h-100 bg-success border-0">
+                            <img src="./images/compra-de-madera.jpg" class="card-img-top" alt="imgen-servicios">
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-uppercase border-2 border-bottom fw-bold">compra de madera</h5>
+                                <p class="card-text text-white">
+                                    This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer
+                                </p>
+                                 <a href="" class="btn btn-danger position-relative d-flex justify-content-center align-items-center overflow-hidden border-1 border-black fw-bold btn-service">
+                                    <span>Más Información<i class="bi bi-arrow-right-circle-fill ps-2"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 bg-success border-0">
+                            <img src="./images/venta-de-madera.jpg" class="card-img-top" alt="imgen-servicios">
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-uppercase border-2 border-bottom fw-bold">venta de madera</h5>
+                                <p class="card-text text-white">
+                                    This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer
+                                </p>
+                                 <a href="" class="btn btn-danger position-relative d-flex justify-content-center align-items-center overflow-hidden border-1 border-black fw-bold btn-service">
+                                    <span>Más Información<i class="bi bi-arrow-right-circle-fill ps-2"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 bg-success border-0">
+                            <img src="./images/venta-de-esteras.png" class="card-img-top object-fit-cover img-fluid" alt="imgen-servicios">
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-uppercase border-2 border-bottom fw-bold">venta de esteras</h5>
+                                <p class="card-text text-white">
+                                    This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer
+                                </p>
+                                 <a href="" class="btn btn-danger position-relative d-flex justify-content-center align-items-center overflow-hidden border-1 border-black fw-bold btn-service">
+                                    <span>Más Información<i class="bi bi-arrow-right-circle-fill ps-2"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-call-to-action container text-center my-5 py-5 bg-success rounded-4">
+            <h2 class="text-white fw-bold">¿Buscas la mejor calidad en <span class="text-uppercase text-danger">madera</span>?</h2>
+            <h4 class="text-white py-2">¡Solicita tu cotización ahora!</h4>
+            <a href="" class="btn btn-danger text-uppercase position-relative d-flex justify-content-center align-items-center overflow-hidden border-2 border-black  fw-bold w-25 mx-auto">
+            <span>¡contáctanos!<i class="bi bi-arrow-right ps-1"></i></span>
+            </a>
+        </section>
+        <section class="section-galery container px-4 px-lg-0">
+            <h2 class="fw-bold">Madera con la que Trabajamos</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, molestiae.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, molestiae.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, molestiae.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, molestiae.
+            </p>
+           <div class="row eucalipto align-items-center p-4 p-lg-5 my-5 rounded-4">
+                <div class="col-lg-6 p-4 p-lg-5 rounded-3 border-1 border">
+                    <h5 class="text-uppercase fw-bold text-danger fs-3 border-1 border-bottom">eucalipto</h5>
+                    <p class="text-white">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est autem nam ex non, error neque deserunt consequuntur libero quam similique molestias. Et animi culpa porro numquam ipsa, beatae at officia!                   
+                    </p>
+                    <p class="text-white">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est autem nam ex non, error neque deserunt consequuntur libero quam similique molestias. Et animi culpa porro numquam ipsa, beatae at officia!                   
+                    </p>
+                    <img src="./images/imagen-eucalipto_madera.jpg" class="img-fluid rounded-2 shadow" alt="imagen-eucalipto-madera">
+                </div>             
+           </div>
+           <div class="row pino align-items-center justify-content-end p-4 p-lg-5 rounded-4 my-5">
+                <div class="col-lg-6 p-4 p-lg-5 rounded-3 border-1 border">
+                    <h5 class="text-uppercase fw-bold text-danger fs-3 border-1 border-bottom">pino</h5>
+                    <p class="text-white">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est autem nam ex non, error neque deserunt consequuntur libero quam similique molestias. Et animi culpa porro numquam ipsa, beatae at officia!                   
+                    </p>
+                    <p class="text-white">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est autem nam ex non, error neque deserunt consequuntur libero quam similique molestias. Et animi culpa porro numquam ipsa, beatae at officia!                   
+                    </p>
+                    <img src="./images/imagen-pino_madera.jpg" class="img-fluid rounded-3 shadow" alt="imagen-pino-madera">
+                </div>            
+           </div>
+        </section>
+    </main>
+    <footer class="footer bg-success">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 text-center text-md-start text-lg-start">
+                    <img src="./images/logo-website.png" class="img-fluid w-75" alt="logo-website">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 pt-lg-5 pt-md-5 text-center text-md-start text-lg-start">
+                    <h6 class="border-1 border-bottom text-white fw-bold">Ubicación</h6>
+                    <p class="text-white pt-2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ut!
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 pt-4 pt-lg-5 text-center text-md-start text-lg-start">
+                    <h6 class="border-1 border-bottom text-white fw-bold">Nuestros Servicios</h6>
+                    <ul class="list-group pt-2">
+                        <li class="list-inline-item">
+                            <a href="" class="text-decoration-none text-white"><i class="bi bi-check-square-fill text-danger pe-2"></i>Venta de Madera</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="" class="text-decoration-none text-white"><i class="bi bi-check-square-fill text-danger pe-2"></i>Compra Madera</a>
+                        </li> 
+                        <li class="list-inline-item">
+                            <a href="" class="text-decoration-none text-white"><i class="bi bi-check-square-fill text-danger pe-2"></i>Venta de Esteras</a>
+                        </li>  
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 pt-4 pt-lg-5 text-center text-md-start text-lg-start">
+                    <h6 class="border-1 border-bottom text-white fw-bold">Contactos</h6>
+                    <ul class="list-group pt-2">
+                        <li class="list-inline-item">
+                            <a href="" class="text-decoration-none text-white">
+                                    <i class="bi bi-telephone-outbound-fill pe-2"></i>+51 999999
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="" class="text-decoration-none text-white">
+                                    <i class="bi bi-envelope-check-fill pe-2"></i>correo@correo.com
+                            </a>
+                        </li>
+                        <div class="my-3">
+                            <a href="" class="text-decoration-none">
+                                <i class="bi bi-facebook bg-danger text-white p-2 fs-5 rounded-2"></i>
+                            </a>
+                            <a href="" class="text-decoration-none">
+                                <i class="bi bi-whatsapp bg-danger text-white  text-success p-2 fs-5 rounded-2"></i>
+                            </a>
+                        </div>
+                    </ul>                      
+                </div>
+                <p class="text-white text-center py-md-3">
+                    Todos los Derechos Reservadors &copy; 2023.
+                    <a href="" class="text-white text-decoration-none">By <span class="text-warning">Analytika</span>Core</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="./js/app.js"></script>
+</html>
