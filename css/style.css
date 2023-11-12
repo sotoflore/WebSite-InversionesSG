@@ -26,7 +26,7 @@ body {
     aspect-ratio: 2/2;
 }
 .section-hero{
-    background-image: url('/images/background-section-hero.jpg');
+    background-image: url('../images/background-section-hero.jpg');
     min-height: 100vh;
 }
 .section-hero,
@@ -46,14 +46,14 @@ body {
     padding-top: 15rem;
 }
 .section-hero-about {
-    background-image: url('/images/background-section-about-us.jpg');
+    background-image: url('../images/background-section-about-us.jpg');
     padding-top: 10rem;
 }
 .cards-about {
-    background-image: url('/images/background-section-about-us.jpg');
+    background-image: url('../images/background-section-about-us.jpg');
 }
 .section-hero-service {
-    background-image: url('/images/background-section-services.jpg');
+    background-image: url('../images/background-section-services.jpg');
 }
 .img-service {
     filter: drop-shadow(4px 4px 6px #000);
@@ -89,7 +89,7 @@ body {
    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .section-about-us{
-    background-image: url('/images/backgound-section-about-us.png');
+    background-image: url('../images/backgound-section-about-us.png');
 }
 .section-hero,
 .section-services,
@@ -100,13 +100,13 @@ body {
     background-attachment: fixed;
 }
 .section-services{
-    background-image: url('/images/background-section-services.png');
+    background-image: url('../images/background-section-services.png');
 }
 .section-galery .eucalipto{
-    background-image: url('/images/imagen-eucalipto.jpg');
+    background-image: url('../images/imagen-eucalipto.jpg');
 }
 .section-galery .pino {
-    background-image: url('/images/imagen-pino.jpg');
+    background-image: url('../images/imagen-pino.jpg');
 }
 .section-services .services,
 .eucalipto .col-lg-6,
