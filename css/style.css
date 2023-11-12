@@ -123,6 +123,9 @@ body {
 }
 
 @media (width < 768px) {
+    .main-content .container-fluid .col-lg-8{
+        padding-top: 11rem;
+    }
     .main-content .container-fluid .col-lg-4 {
         padding-top: 2.5rem;
     }
@@ -133,8 +136,10 @@ body {
         border-radius: 0 !important;
     }
 }
-
 @media (768px <=width < 992px) {
+    .main-content .container-fluid .col-lg-8 {
+        padding-top: 5rem;
+    }
     .main-content .container-fluid .col-lg-4 {
         padding-top: 3rem;
     }
