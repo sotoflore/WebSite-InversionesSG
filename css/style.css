@@ -1,3 +1,6 @@
+html{
+    scroll-padding-top: 170px;
+}
 body {
     font-family: 'Roboto Slab', serif;
 }
@@ -101,7 +104,10 @@ body {
 .pino .shadow {
     box-shadow: #000 0px 20px 30px -10px !important;
 }
-
+.footer .img-logo-footer{
+    padding-top: 2.2rem;
+    width: 65%;
+}
 @media (width < 768px) {
     .main-content .container-fluid .col-lg-8{
         padding-top: 11rem;
@@ -116,7 +122,7 @@ body {
         border-radius: 0 !important;
     }
 }
-@media (768px <=width < 992px) {
+@media (768px <= width < 992px) {
     .main-content .container-fluid .col-lg-8 {
         padding-top: 5rem;
     }
